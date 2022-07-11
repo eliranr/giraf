@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="images/favi.png"/>
+
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/general.css">
+
+
+    <title>ברוך הבא</title>
+  </head>
+  <body>
+    <div class="log_con">
+      <div class="log right_log">
+        <div class="welcome">
+          <h3>אלישר הנדסה אזרחית</h3>
+          <hr>
+          <p>
+            פתרונות בניהול תוכניות בנייה לאורך כל שלבי הפרויקט.<br>
+            נותנת תמיכה מרחוק ואתכם לאורך כל הדרך!
+          </p>
+        </div>
+        <div class="circle">
+          O
+        </div>
+      </div>
+      <div class="log left_log">
+        <div class="logs">
+          <h3>כניסה למערכת</h3>
+          <hr>
+          <input type="text" class="inp inp2" id="mob" placeholder="נייד" required>
+          <input type="password" class="inp inp2" id="pass" placeholder="סיסמא" required>
+          <button type="button" class="btn btn-primary" name="button" id="log_but" onclick="login();">התחבר</button>
+          <p id="err_log"></p>
+        </div>
+        <div class="mem">
+          &#9979;
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="/js/login.js" charset="utf-8"></script>
+</html>

@@ -1,0 +1,39 @@
+<div class="menu">
+  <% if (user.management <= 2){ %>
+    <div class="men_top" id="main_icon" onclick="change_mode()" onmousedown="active00(this)" onmouseup="onmouseup00(this)">
+      <i class="fas fa-horse-head"></i>
+    </div>
+  <% } else { %>
+    <div class="men_top" id="main_icon">
+      <i class="fas fa-horse-head"></i>
+    </div>
+  <% } %>
+  <div class="men_mid">
+    <div class="men" onclick="show(this)" id="projects" onmousedown="active(this)">
+      <div class="men_mi">
+        <i class="fas fa-folder-open"></i>
+      </div>
+      <font>פרויקטים</font>
+    </div>
+    <div class="men" onclick="show(this)" id="files" onmousedown="active(this)">
+      <div class="men_mi">
+        <i class="fas fa-file-alt"></i>
+      </div>
+      <font>ניהול איכות</font>
+    </div>
+    <div class="men" onclick="show(this)" id="contacts" onmousedown="active(this)">
+      <div class="men_mi">
+        <i class="fas fa-user"></i>
+      </div>
+      <font>קבלני משנה</font>
+    </div>
+    <div class="men" onclick="show(this)" id="work_dates" onmousedown="active(this)">
+      <div class="men_mi">
+        <i class="fas fa-pencil-alt"></i>
+      </div>
+      <font>שעות עבודה</font>
+    </div>
+
+
+  </div>
+</div>

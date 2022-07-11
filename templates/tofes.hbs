@@ -1,0 +1,253 @@
+<html lang="he" dir="rtl">
+  <head>
+    <style media="screen">
+      html{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url("https://i.ibb.co/g34mrh0/background.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      p{
+        margin: 0;
+      }
+      font{
+        font-weight: 600;
+      }
+      .coteret{
+        position: absolute;
+        top: 205px;
+        right: 265px;
+        font-size: 17.5px;
+        font-weight: 600;
+      }
+      .coteret2{
+        position: absolute;
+        top: 205px;
+        right: 499px;
+        font-size: 17.5px;
+        font-weight: 600;
+      }
+      .top_box{
+        width: 300px;
+        height: 90px;
+        display: inline-block;
+        position: absolute;
+        top: 230px;
+        margin: 0;
+        line-height: 1.5;
+      }
+      .top_box1{
+        right: 90px;
+      }
+      .top_box2{
+        right: 400px;
+      }
+      .top_box font{
+        font-weight: 600;
+        text-decoration: underline;
+      }
+
+      .box_tab1{
+        width: 610px;
+        height: auto;
+        display: inline-block;
+        position: absolute;
+        top: 335px;
+        right: 90px;
+        margin: 0;
+        text-align: center;
+      }
+      .box_tab1 font{
+        font-weight: 600;
+      }
+
+      .cot_tab2{
+        font-weight: 600;
+        width: 610px;
+        height: 22px;
+        display: inline-block;
+        position: absolute;
+        top: 385px;
+        right: 90px;
+        margin: 0;
+        text-align: center;
+      }
+      .box_tab2{
+        width: 623px;
+        height: auto;
+        position: absolute;
+        top: 405px;
+        right: 85px;
+        margin: 0;
+        text-align: center;
+      }
+      .box_tab2 th{
+        width: 20%;
+      }
+      .box_tab2 td{
+        padding-top: 5px;
+        text-align: right;
+      }
+
+      .cot_tab3{
+        width: 610px;
+        height: auto;
+        display: inline-block;
+        position: absolute;
+        top: 493px;
+        right: 90px;
+        margin: 0;
+        text-align: center;
+      }
+
+      .box_tab3{
+        width: 610px;
+        height: 105px;
+        position: absolute;
+        top: 513px;
+        right: 90px;
+        margin: 0;
+        line-height: 1.4;
+      }
+      .tab{
+        width: 620px;
+        margin: 0;
+        text-align: right;
+      }
+      .tab td{
+        padding-right: 5px;
+        width: 50%;
+      }
+      .tab3{
+        position: absolute;
+        top: 623px;
+        right: 85px;
+      }
+
+      .cot_tab4{
+        width: 610px;
+        height: auto;
+        display: inline-block;
+        position: absolute;
+        top: 673px;
+        right: 90px;
+        margin: 0;
+        text-align: center;
+      }
+      .tab4{
+        position: absolute;
+        top: 745px;
+        right: 85px;
+      }
+
+      .cot_tab5{
+        width: 610px;
+        height: auto;
+        display: inline-block;
+        position: absolute;
+        top: 795px;
+        right: 90px;
+        margin: 0;
+        text-align: center;
+      }
+      .tab5{
+        position: absolute;
+        top: 868px;
+        right: 85px;
+      }
+
+      .bottom{
+        text-align: center;
+        width: 610;
+        position: absolute;
+        top: 1010px;
+        right: 90px;
+      }
+
+
+    </style>
+    <link rel="stylesheet" href="/css/tamp_tofes.css">
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <font class="coteret">טופס בקשה לקבלת מידע (R.F.I)</font><font class="coteret2"> - {{num}}</font>
+    <div class="top_box top_box1">
+      <p>
+        <font>RFI:</font> {{rfi}}<br>
+        <font>שם הפרויקט:</font> {{pro_name}}<br>
+        <font>קבלן:</font> אלישר הנדסה אזרחית בע"מ<br>
+        <font>תאריך:</font> {{date}}
+      </p>
+    </div>
+    <div class="top_box top_box2">
+      <p>
+        <font>מס' חוזה קבלני:</font> {{num_contract}}<br>
+        <font>מזמין העבודה:</font> {{event_job}}<br>
+        <font>ניהול פרויקט:</font> {{manage_pro}}
+      </p>
+    </div>
+
+    <p class="box_tab1"><font>הבקשה מתייחסת לתוכניות:</font> {{bakasa0}}</p>
+
+    <font class="cot_tab2">הבקשה מתייחסת לפרטים במפרטים/מסמכים:</font>
+    <table class="box_tab2">
+      <tr>
+        <th>תכנית:</th>
+        <th>מהדורה:</th>
+        <th>מבנה:</th>
+        <th>מס גליון:</th>
+        <th>נוסף:</th>
+      </tr>
+      <tr>
+        <td>{{plan}}</td>
+        <td>{{mahadura}}</td>
+        <td style="padding-right: 10px;">{{constract}}</td>
+        <td style="padding-right: 10px;">{{num_gil}}</td>
+        <td style="padding-right: 10px;">{{more}}</td>
+      </tr>
+    </table>
+
+    <p class="cot_tab3"><font>פירוט מלא של הבקשה</font> (למילוי ע"י הקבלן)</p>
+    <div class="box_tab3">
+      <p>{{req_text}}</p>
+    </div>
+    <table class="tab tab3">
+      <tr>
+        <td><font>שם מגיש הבקשה:</font> {{name_req}}</td>
+        <td><font>תאריך:</font> {{date}}</td>
+      </tr>
+    </table>
+
+    <p class="cot_tab4"><font>התייחסות מתכנן / יועץ / גורם מקצועי</font></p>
+    <table class="tab tab4">
+      <tr>
+        <td><font>תאריך:</font></td>
+        <td><font>חתימה וחותמת:</font></td>
+      </tr>
+    </table>
+
+
+    <p class="cot_tab5"><font>תשובת מנהל פרוייקט</font></p>
+    <table class="tab tab5">
+      <tr>
+        <td><font>תאריך:</font></td>
+        <td><font>חתימה וחותמת:</font></td>
+      </tr>
+    </table>
+
+
+    <div class="bottom">
+      <p>
+        רחוב: הפלמ"ח 160 מבשרת ציון מיקוד: 90805  ת"ד:82631 <br>
+        טלפון: 0722405531/3 פקס: 0722405530 מייל: office@elisar.co.il
+      </p>
+    </div>
+
+  </body>
+</html>

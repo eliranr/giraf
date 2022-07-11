@@ -1,0 +1,67 @@
+
+
+
+.td_small{
+  background-color: #5f9ea04d;
+}
+.td_small0{
+  width: 16%;
+  border-color: #607d8b6b !important;
+}
+
+
+.hr_beton{
+  margin: 30px 0;
+  border-top: 1px dotted #8fbc8f61;
+
+}
+
+.con_tab_beton{
+  position: relative;
+  margin-bottom: 80px;
+}
+.con_tab_beton .up_coteret{
+  font-size: 22px;
+}
+.con_tab_beton .up_coteret font{
+  font-weight: 600
+}
+.con_tab_beton .up_coteret i{
+  float: left;
+  font-size: 18px;
+}
+
+.arr_cir {
+  margin-left: 15px;
+}
+
+
+
+.con_add_tab button{
+  float: left;
+  height: 50px;
+  width: 80px;
+  font-size: 1rem;
+}
+
+.con_add_tab .inp{
+  width: 33%;
+  height: 50px;
+}
+
+.but_del_table{
+  position: absolute;
+  color: red;
+}
+
+.total_beton_fold{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+
+
+
+/* .con_tab_beton{
+  background: linear-gradient(0deg, rgba(74, 195, 129, 0.08) 80px, #f9f9f9 90px)
+} */

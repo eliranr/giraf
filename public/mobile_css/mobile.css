@@ -1,0 +1,46 @@
+@media (max-width: 1080px){
+  .menu{
+    position: absolute;
+    bottom: 0;
+    height: 150px !important;
+    min-height: 100px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  .men{
+    display: inline-block;
+    margin: 0 4%;
+  }
+  .men_top{
+    width: 85px;
+    height: 85px;
+    position: relative;
+    bottom: 38px;
+  }
+  .men_top i{
+    font-size: 60px;
+  }
+  .men_mi{
+    width: 85px;
+    height: 85px;
+  }
+  .men_mi i{
+    font-size: 60px;
+  }
+  .men_mid{
+    display: inline-block;
+    margin-top: 25px;
+    width: 80%;
+  }
+
+  .header{
+    width: 100%;
+  }
+  .box{
+    width: 100%;
+    height: calc(100vh - 230px);
+    overflow-y: scroll;
+  }
+}

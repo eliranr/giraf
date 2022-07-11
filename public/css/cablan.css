@@ -1,0 +1,249 @@
+
+
+.cablan_top{
+
+}
+.cablan_top button{
+  float: left;
+  height: 50px;
+  width: 80px;
+  font-size: 1rem;
+}
+.cablan_top input{
+  background-color: #f9f9f9;
+  width: 25%;
+  margin-left: 25px;
+  font-size: 1.2rem;
+}
+.cablan_top select{
+  background-color: #f9f9f9;
+  width: 27%;
+  margin: 0 !important;
+  height: 48px;
+  font-size: 1.2rem;
+}
+
+
+
+
+
+
+/* צור קבלן */
+
+.cablan_all{
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.add_cablan{
+  width: 45%;
+  padding: 30px 45px;
+  display: inline-block;
+  height: 410px;
+}
+.add_cablan0{
+  margin-left: 5%;
+}
+
+.add_cablan input{
+  background-color: #f9f9f9;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.add_cablan select{
+  background-color: #f9f9f9;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 20px;
+  height: 50px;
+}
+
+.add_cablan textarea{
+  background-color: #f9f9f9;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 20px;
+  height: 80px;
+  padding: 5px 15px;
+  border: 0;
+  border-right: 1px solid #ced4da;
+  resize: none;
+  color: #495057;
+}
+
+.add_cablan textarea:focus{
+  outline: none;
+  border-right: 1px solid #007bff;
+}
+
+.add_cablan button{
+  float: left;
+  width: 110px;
+  height: 45px;
+}
+
+
+.td_rate{
+  width: 200px;
+}
+
+.star8{
+  margin-left: 5px;
+  float: left;
+  font-size: 24px;
+  color: #ccc;
+}
+.startfull8{
+  color: #ffc700;
+}
+
+.tr_row:hover{
+  background-color: lavender;
+}
+
+
+.tab_cablan {
+  text-align: right;
+  font-family: arial, sans-serif;
+  width: 100%;
+}
+.tab_cablan td, .tab_cablan th {
+  height: 50px;
+  padding: 8px;
+}
+.tab_cablan tr{
+  border-bottom: 0.5px solid #607d8b1f;
+}
+
+/* פרופיל קבלן */
+
+.profile_cablan{
+  width: 700px;
+  height: 400px;
+  background: linear-gradient(134deg, #3f9db2 7%, #f9f9f9 38%);
+}
+.profile_cablan{
+  overflow: visible;
+  position: relative;
+  font-size: 22px;
+}
+.profile_cablan .tab_fon{
+  font-weight: 600;
+}
+.profile_cablan .del_but{
+  font-size: 20px;
+  color: red;
+  position: absolute;
+  top: 0;
+  right: -40px;
+}
+.profile_cablan .del_but:active{
+  color: red;
+  background-color: #ffffff00;
+}
+.tab_card{
+  width: 75%;
+  display: inline-block;
+}
+.tab_card td{
+  height: 40px;
+  width: auto;
+}
+.tab_card .tab_fon{
+  width: 110px;
+}
+.tab_card i{
+  font-size: 25px;
+  float: none !important;
+  margin-right: 5px;
+}
+.div_stars{
+  display: inline;
+}
+.div_opinion{
+  width: 50%;
+  float: left;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  white-space: pre-wrap;
+}
+.div_opinion font{
+  font-weight: 600;
+}
+
+.tab_card input{
+  background-color: #ffffff00;
+  height: 40px;
+}
+
+.div_opinion textarea{
+  background-color: #ffffff00;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 20px;
+  height: 80px;
+  padding: 5px 15px;
+  border: 0;
+  border-right: 1px solid #ced4da;
+  resize: none;
+  color: #495057;
+}
+
+
+
+
+
+/* כוכבים */
+*{
+    margin: 0;
+    padding: 0;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.rate2 {
+    position: relative;
+
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}

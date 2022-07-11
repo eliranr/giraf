@@ -1,0 +1,142 @@
+
+.tables_rfi{
+  display: block;
+  width: 900px;
+  margin: 20px auto 60px auto;
+}
+
+.rfi_tab{
+  width: 45%;
+  display: inline-block;
+}
+.rfi_tab .td_tab0{
+  width: 125px;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.rfi_tab .td_tab1{
+  width: auto;
+}
+.rfi_tab input{
+  width: 100%;
+  font-size: 1.2rem;
+}
+.rfi_tab0{
+  margin-left: 70px;
+}
+
+
+.hr_rfi{
+  border-top: 1px dashed #8fbc8f61;
+  width: 950px;
+  margin: 50px auto;
+}
+
+/* חלק 2 */
+
+.tab_rfi1{
+  font-weight: 600;
+  font-size: 1.2rem;
+  width: 900px;
+  margin: 0 auto 60px auto;
+}
+
+.tab_rfi1 .one{
+  width: 250px;
+}
+
+.tab_rfi1 input{
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+/* חלק 3 */
+
+.tab_rfi2{
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 60px
+}
+.tab_rfi2 input{
+  width: 100% !important;
+  font-size: 1.2rem;
+  text-align: center;
+  border: 0;
+}
+.tab_rfi2 td{
+  padding: 0;
+}
+
+/* חלק 4 */
+
+.div_rfi0{
+  width: 900px;
+  margin: 0 auto 60px auto;
+  height: 120px;
+}
+
+.div_rfi0 font{
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.div_rfi0 textarea{
+  background-color: #f9f9f900;
+  width: 75%;
+  float: left;
+  border: 0;
+  border: 0.5px solid #ced4da;
+  font-size: 1.2rem;
+  height: 120px;
+  padding: 10px;
+  resize: none;
+}
+
+.div_rfi0 textarea:focus{
+  outline: none;
+  border-right: 1px solid #1eca74;
+}
+
+
+/* חלק 5 */
+
+.tab_rfi5{
+  font-weight: 600;
+  font-size: 1.2rem;
+  width: 900px;
+  margin: 60px auto 60px auto;
+}
+
+.tab_rfi5 .one{
+  width: 180px;
+}
+
+.tab_rfi5 input{
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+
+/* bottom */
+
+.div_but_rfi{
+  width: 900px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+}
+
+.but_rfi{
+  margin: 0 auto;
+  font-size: 1.2rem;
+  padding: 8px 18px;
+}
+
+
+
+
+
+
+.tab_cablan td, .tab_cablan th{
+  border-right: 0.5px solid #607d8b1f;
+  border-left: 0.5px solid #607d8b1f;
+}

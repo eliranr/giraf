@@ -1,0 +1,30 @@
+
+
+<div class="contenier con_cre_pro">
+  <input type="text" class="inp inp_name" id="cre_name_pro" placeholder="שם פרויקט">
+
+  <h4>תוכניות:</h4>
+
+  <div class="div_add">
+    <select id="sel_two" class="box_select" name="" multiple>
+    </select>
+
+    <font>&#x2192;</font>
+
+    <select id="sel_one" class="box_select" name="" multiple>
+      <option onclick="add1(this);" value="אדריכלות">אדריכלות</option>
+      <option onclick="add1(this);" value="אינסטלציה ומזא">אינסטלציה ומז"א</option>
+      <option onclick="add1(this);" value="פיתוח חצרות">פיתוח חצרות</option>
+      <option onclick="add1(this);" value="אגרונום">אגרונום</option>
+      <option onclick="add1(this);" value="תכניות חשמל">תכניות חשמל</option>
+    </select>
+  </div>
+  <input type="text" class="inp inp_cat" id="add_cat" placeholder="קטגוריה חדשה">
+  <button type="button" name="button" onclick="add_cat(); document.getElementById('add_cat').value = '';" class="btn btn-success but_add">הוסף</button>
+
+  <div class="end_cre">
+    <button onclick="finish_create();" type="button" name="button" class="btn btn-success but_finish">שמור פרויקט חדש</button>
+  </div>
+
+
+</div>

@@ -1,0 +1,26 @@
+
+
+embed{
+  display: block;
+  margin: 0 auto;
+}
+
+.files_line{
+  display: inline-block;
+}
+.con_files{
+  margin-bottom: 40px;
+}
+
+.con_files i{
+  font-size: 30px;
+}
+.con_files input[type=file] {
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.files_line span{
+  font-weight: bold;
+  margin-right: 25px;
+}

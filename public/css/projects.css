@@ -1,0 +1,83 @@
+.all{
+  z-index: -2;
+  padding: 15px 25px 0 25px;
+}
+.hed{
+}
+.hed h3{
+  color: #222831;
+  display: inline-block;
+}
+.hed h3:hover{
+  text-decoration: underline;
+}
+.hed > font{
+  color: darkgray;
+  font-size: 16px;
+  position: relative;
+  right: 15px;
+  bottom: 3px;
+}
+.hed i{
+  color: dodgerblue;
+  position: relative;
+  right: 5px;
+  bottom: 3px;
+}
+.hed .arr{
+  color: darkgray;
+  display: inline-block;
+  float: left;
+  font-size: 50px;
+}
+.hed .arr:hover{
+  color: #2196f3;
+}
+.hed .arr:active{
+  color: rgb(10, 111, 194);
+}
+
+#left_ar{
+  margin: 0;
+  display: inline;
+  float: left;
+}
+
+.bod{
+  display: block;
+  margin-top: 25px;
+  position: relative;
+}
+
+
+.pro_box{
+  display: inline-block;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  width: 100%;
+  height: 220px;
+  margin: 0 3% 30px 3%;
+  padding: 30px 10px 0 10px;
+  box-shadow: 0 0 15px #acaaaa;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.pro_box .gene-icon{
+  display: block;
+  text-align: center;
+  font-size: 100px;
+  color: #2196f3;
+
+}
+
+.pro_box h4{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pro_box button{
+  margin-top: 20px;
+  font-weight: 600;
+}

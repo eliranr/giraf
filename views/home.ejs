@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="images/favi.png"/>
+    <title>אלישר הנדסה אזרחית</title>
+
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/general.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/projects.css">
+    <link rel="stylesheet" href="/css/create_pro.css">
+    <link rel="stylesheet" href="/css/create_plan.css">
+    <link rel="stylesheet" href="/css/sapacim.css">
+    <link rel="stylesheet" href="/font/css/all.css">
+
+    <link rel="stylesheet" href="/css/gir2.css">
+    <link rel="stylesheet" href="/css/cablan.css">
+    <link rel="stylesheet" href="/css/tab_beton.css">
+    <link rel="stylesheet" href="/css/fold_rfi.css">
+    <link rel="stylesheet" href="/css/win_file.css">
+
+    <link rel="stylesheet" href="/mobile_css/mobile.css">
+
+  </head>
+  <body>
+    <%- include("boxes/menu"); -%>
+    <div class="header">
+      <div class="user_head" onmouseover="dropList(true);" onmouseout="dropList(false);">
+        <i class="fas fa-user-circle"></i><%= user.full_name %>
+        <div class="list">
+          <% if (user.management == 1){ %>
+            <a href="/admin">מתקדם</a>
+          <% } %>
+          <a href="#">פרופיל אישי</a>
+          <a onclick="logout()" href="#">התנתק</a>
+        </div>
+      </div>
+      <div class="pop_mes_main" id="pop_mes_main"  style=""></div>
+    </div>
+
+    <div class="box" id="box">
+      <div class="hed" id="hed">
+        <h3>פרויקטים</h3><i class="fas fa-caret-down"></i>
+        <font id="loc"></font>
+
+        <p id='left_ar'></p>
+      </div>
+      <div id="bod">
+
+      </div>
+    </div>
+
+
+
+  <input type="hidden" id="user_name" value="<%= user.full_name %>">
+
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="/js/win_file.js" charset="utf-8"></script>
+  <script src="/js/drag.js" charset="utf-8"></script>
+  <script src="/js/contact_table.js" charset="utf-8"></script>
+  <script src="/js/index_projects.js" charset="utf-8"></script>
+  <script src="/js/index_fold.js" charset="utf-8"></script>
+  <script src="/js/index_table.js" charset="utf-8"></script>
+  <script src="/js/cablanim.js" charset="utf-8"></script>
+  <script src="/js/table_beton.js" charset="utf-8"></script>
+  <script src="/js/table_plan.js" charset="utf-8"></script>
+  <script src="/js/create_rfi.js" charset="utf-8"></script>
+
+    <script src="/A_js/general.js" charset="utf-8"></script>
+
+  <script src="/js/index.js" charset="utf-8"></script>
+
+
+
+
+</html>

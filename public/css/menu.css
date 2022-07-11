@@ -1,0 +1,214 @@
+body {
+  overflow-y: hidden;
+}
+.header{
+  display: block;
+  height: 80px;
+  background: linear-gradient(110deg, #3f9db2 60%, #00bcd4 85%);
+  position: relative;
+  width: calc(100% - 100px);
+  float: left;
+  z-index: -1;
+  box-shadow: -8px 3px 15px #acaaaa;
+}
+
+.box{
+  display: block;
+  background-color: #eceff8;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  height: calc(100vh - 80px);
+  min-height: 500px;
+  width: calc(100% - 100px);
+  float: left;
+  position: relative;
+  z-index: -2;
+
+  overflow-y: auto;
+}
+.menu{
+  display: block;
+  float: right;
+  width: 100px;
+  height: calc(100vh);
+  min-height: 450px;
+  background-color: #f2f2f278;
+  box-shadow: -2px 0 15px #acaaaa;
+  z-index: 2;
+  position: relative;
+}
+
+.men_top{
+  display: inline-block;
+  background-color: #ebeff8;
+  border-radius: 20px;
+  margin: 8px 15px 0 15px;
+  width: 70px;
+  height: 70px;
+  overflow: visible;
+}
+.men_top i{
+  font-size: 45px;
+  color: darkgray;
+  margin: 10px 10px;
+}
+
+
+.pop_mes_main{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.pop_mes{
+  border-radius: 15px;
+  background-color: #008b8b80;
+  min-width: 200px;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.pop_mes:after {
+  content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 12px solid transparent;
+	border-left-color: #008b8b80;
+	border-right: 0;
+	border-top: 0;
+	margin-top: -6px;
+	margin-right: -12px;
+}
+
+.pop_mes:hover{
+  background-color: #008b8bd1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.men_mid{
+  width: 100%;
+  height: auto;
+  margin-top: 10vh;
+}
+
+/* @media (max-height: 680px){
+  .men_mid{
+    margin-top: 7vh;
+  }
+} */
+
+
+@media (max-height: 620px){
+  .men_mid{
+    margin-top: 0;
+  }
+}
+
+.men_mi{
+  display: inline-block;
+  background-color: #ebeff8;
+  border-radius: 20px;
+  margin: 0 15px 0 15px;
+  width: 70px;
+  height: 70px;
+}
+.men_mi i{
+  font-size: 45px;
+}
+
+.men{
+  margin-top: 4vh;
+  color: darkgray;
+}
+.men font{
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  font-weight: 600;
+}
+
+.men_mi .fa-folder-open{
+  margin: 13px 7px;
+}
+.men_mi .fa-file-alt{
+  margin: 12px 17px;
+}
+.men_mi .fa-user{
+  margin: 12px 15px;
+}
+.men_mi .fa-pencil-alt{
+  margin: 12px 13px;
+}
+
+.men_mi .fa-dice-d20{
+  margin: 12px 14.5px;
+}
+.men_mi .fa-hard-hat{
+  margin: 12px 12px;
+}
+
+
+/* .men:hover{
+  color: #1eca74;
+} */
+
+/* HEADER */
+.user_head{
+  text-align: center;
+  width: 205px;
+  display: inline-block;
+  height: 80px;
+  padding-top: 20px;
+  float: left;
+  margin-left: 40px;
+  font-size: 24px;
+  color: #ebeff8;
+}
+.user_head i{
+  text-decoration: none;
+  font-size: 29px;
+  position: relative;
+  margin-left: 10px;
+  top: 2.5px;
+}
+
+.user_head:hover{
+  color: #fff;
+  background-color: #388da0;
+}
+
+.list{
+  text-align: right;
+  font-size: 18px;
+  position: relative;
+  top: 24px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 15px #acaaaa;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: none;
+}
+.list a{
+  display: block;
+  padding: 8px 16px;
+  border-bottom: 0.5px solid #9e9e9e26;
+}
+
+.list a:hover{
+  background-color: #9e9e9e42;
+  text-decoration: none;
+}
+
+/* HEADER-- */
